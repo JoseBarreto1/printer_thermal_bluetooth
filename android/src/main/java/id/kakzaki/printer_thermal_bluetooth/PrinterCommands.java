@@ -1,4 +1,4 @@
-package id.kakzaki.blue_thermal_printer;
+package id.kakzaki.printer_thermal_bluetooth;
 
 /**
  * Created by https://goo.gl/UAfmBd on 2/6/2017.

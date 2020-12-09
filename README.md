@@ -38,7 +38,7 @@ EXAMPLE:
     import 'dart:typed_data';
     import 'package:flutter/material.dart';
     import 'dart:async';
-    import 'package:blue_thermal_printer/blue_thermal_printer.dart';
+    import 'package:printer_thermal_bluetooth/printer_thermal_bluetooth.dart';
     import 'package:flutter/services.dart';
     import 'package:path_provider/path_provider.dart';
 

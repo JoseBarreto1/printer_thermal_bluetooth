@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="id.kakzaki.blue_thermal_printer_example">
+    package="id.kakzaki.printer_thermal_bluetooth_example">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -10,7 +10,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="blue_thermal_printer_example"
+        android:label="printer_thermal_bluetooth_example"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

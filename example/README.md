@@ -1,6 +1,6 @@
-# blue_thermal_printer_example
+# printer_thermal_bluetooth_example
 
-Demonstrates how to use the blue_thermal_printer plugin.
+Demonstrates how to use the printer_thermal_bluetooth plugin.
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ Demonstrates how to use the blue_thermal_printer plugin.
     import 'dart:typed_data';
     import 'package:flutter/material.dart';
     import 'dart:async';
-    import 'package:blue_thermal_printer/blue_thermal_printer.dart';
+    import 'package:printer_thermal_bluetooth/printer_thermal_bluetooth.dart';
     import 'package:flutter/services.dart';
     import 'package:path_provider/path_provider.dart';
 

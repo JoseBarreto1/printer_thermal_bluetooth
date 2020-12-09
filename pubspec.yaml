@@ -1,11 +1,11 @@
 name: printer_thermal_bluetooth
 description: Imprimir em impressoras thermal via bluetooth
 version: 0.0.1
+author: José Barreto <jbarretosantosjr@gmail.com>
 homepage: https://github.com/JoseBarreto1/printer_thermal_bluetooth
 
 environment:
-  sdk: ">=2.2.2 <3.0.0"
-  flutter: ">=1.10.0 <2.0.0"
+  sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -27,10 +27,10 @@ flutter:
   plugin:
     platforms:
       android:
-        package: id.kakzaki.blue_thermal_printer
+        package: id.kakzaki.printer_thermal_bluetooth
         pluginClass: BlueThermalPrinterPlugin
 #  plugin:
-#    androidPackage: id.kakzaki.blue_thermal_printer
+#    androidPackage: id.kakzaki.printer_thermal_bluetooth
 #    pluginClass: BlueThermalPrinterPlugin
 
   # To add assets to your plugin package, add an assets section, like this:

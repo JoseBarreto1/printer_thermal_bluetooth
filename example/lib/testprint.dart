@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:printer_thermal_bluetooth/printer_thermal_bluetooth';
+import 'package:printer_thermal_bluetooth/printer_thermal_bluetooth.dart';
 
 class TestPrint {
   BlueThermalPrinter bluetooth = BlueThermalPrinter.instance;

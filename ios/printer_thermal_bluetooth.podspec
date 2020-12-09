@@ -2,7 +2,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'blue_thermal_printer'
+  s.name             = 'printer_thermal_bluetooth'
   s.version          = '0.0.1'
   s.summary          = 'A new Flutter plugin for connecting to thermal printer vie bluetooth'
   s.description      = <<-DESC

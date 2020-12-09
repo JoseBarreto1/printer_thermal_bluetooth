@@ -1,4 +1,4 @@
-group 'id.kakzaki.blue_thermal_printer'
+group 'id.kakzaki.printer_thermal_bluetooth'
 version '1.0.9'
 
 buildscript {

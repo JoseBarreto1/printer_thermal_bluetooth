@@ -1,4 +1,4 @@
-package id.kakzaki.blue_thermal_printer_example;
+package id.kakzaki.printer_thermal_bluetooth_example;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

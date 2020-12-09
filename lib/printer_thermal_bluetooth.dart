@@ -15,7 +15,7 @@ class BlueThermalPrinter {
   static const int CONNECTED = 1;
   static const int DISCONNECTED = 0;
 
-  static const String namespace = 'blue_thermal_printer';
+  static const String namespace = 'printer_thermal_bluetooth';
 
   static const MethodChannel _channel =
       const MethodChannel('$namespace/methods');

@@ -1,6 +1,6 @@
 name: printer_thermal_bluetooth_example
-description: Demonstrates how to use the blue_thermal_printer plugin.
-publish_to: https://pub.dev/packages/blue_thermal_printer
+description: Demonstrates how to use the printer_thermal_bluetooth plugin.
+publish_to: https://pub.dev/packages/printer_thermal_bluetooth
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -18,7 +18,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  blue_thermal_printer:
+  printer_thermal_bluetooth:
     path: ../
 
 # For information on the generic Dart part of this file, see the

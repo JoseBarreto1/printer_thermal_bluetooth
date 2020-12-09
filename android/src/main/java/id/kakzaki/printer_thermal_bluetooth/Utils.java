@@ -1,4 +1,4 @@
-package id.kakzaki.blue_thermal_printer;
+package id.kakzaki.printer_thermal_bluetooth;
 
 import android.graphics.Bitmap;
 import android.util.Log;

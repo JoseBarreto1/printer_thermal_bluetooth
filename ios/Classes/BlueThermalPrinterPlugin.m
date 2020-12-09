@@ -1,5 +1,5 @@
 #import "BlueThermalPrinterPlugin.h"
-#import <blue_thermal_printer/blue_thermal_printer-Swift.h>
+#import <printer_thermal_bluetooth/printer_thermal_bluetooth-Swift.h>
 
 @implementation BlueThermalPrinterPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {

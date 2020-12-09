@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:printer_thermal_bluetoothr/printer_thermal_bluetooth.dart';
+import 'package:printer_thermal_bluetooth/printer_thermal_bluetooth.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel('printer_thermal_bluetooth');

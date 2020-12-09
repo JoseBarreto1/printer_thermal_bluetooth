@@ -1,4 +1,4 @@
-package id.kakzaki.blue_thermal_printer;
+package id.kakzaki.printer_thermal_bluetooth;
 
 import android.Manifest;
 import android.bluetooth.BluetoothAdapter;
@@ -39,7 +39,6 @@ import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
-import io.flutter.plugin.common.PluginRegistry.RequestPermissionsResultListener;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.MultiFormatWriter;
@@ -47,10 +46,10 @@ import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.journeyapps.barcodescanner.BarcodeEncoder;
 
-public class BlueThermalPrinterPlugin implements MethodCallHandler, RequestPermissionsResultListener {
+public class BlueThermalPrinterPlugin implements MethodCallHandler {
 
   private static final String TAG = "BThermalPrinterPlugin";
-  private static final String NAMESPACE = "blue_thermal_printer";
+  private static final String NAMESPACE = "printer_thermal_bluetooth";
   private static final int REQUEST_COARSE_LOCATION_PERMISSIONS = 1451;
   private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
   private static ConnectedThread THREAD = null;
@@ -64,7 +63,6 @@ public class BlueThermalPrinterPlugin implements MethodCallHandler, RequestPermi
 
   public static void registerWith(Registrar registrar) {
     final BlueThermalPrinterPlugin instance = new BlueThermalPrinterPlugin(registrar);
-    registrar.addRequestPermissionsResultListener(instance);
   }
 
   BlueThermalPrinterPlugin(Registrar registrar) {
