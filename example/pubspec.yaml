@@ -1,6 +1,7 @@
 name: printer_thermal_bluetooth_example
 description: Demonstrates how to use the printer_thermal_bluetooth plugin.
 publish_to: https://pub.dev/packages/printer_thermal_bluetooth
+version: 0.0.0+1
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -8,7 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  printer_thermal_bluetooth:
+    path: ../
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
@@ -18,8 +20,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  printer_thermal_bluetooth:
-    path: ../
+  
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec

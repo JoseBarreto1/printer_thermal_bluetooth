@@ -103,7 +103,7 @@ packages:
     source: hosted
     version: "2.2.1"
   printer_thermal_bluetooth:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       path: ".."
       relative: true
